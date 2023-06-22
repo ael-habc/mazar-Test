@@ -10,9 +10,15 @@ import "./App.css";
 function App() {
   console.log(Sales);
   const [switcher, setSwitcher] = useState(true);
-  const hundlePage = (n) => {
-    if (n == 1) setSwitcher(true);
-    else setSwitcher(false);
+  const hundlePage = (n,e) => {
+    if (n == 1) {
+      setSwitcher(true);
+    }
+    else{
+      setSwitcher(false);
+    } 
+    
+
   };
   return (
     <div className="App">
@@ -20,8 +26,8 @@ function App() {
       <main>
         <div className="underHeader">
           <Sidebar />
-          <p onClick={() =>hundlePage(1)}>dashboard</p>
-          <p onClick={() => hundlePage(2)}>recommondations</p>
+          <p onClick={(e) => hundlePage(1,e)} className={switcher ? "selected" : ""}>Dashboard</p>
+          <p onClick={(e) => hundlePage(2,e)} className={!switcher ? "selected" : ""}>Recommondations</p>
         </div>
         {switcher ? (
           <div className="dashboard">
@@ -44,7 +50,7 @@ function App() {
             </div>
           </div>
         ) : (
-          <div className="recommondations">page2</div>
+          <div className="recommondations">Rocomendation</div>
         )}
       </main>
     </div>

@@ -5,7 +5,7 @@
     display: flex;
     align-items: center;
     gap: 30px;
-    width: 100vw;
+    min-width: 100vw;
 
   }
   .logo {

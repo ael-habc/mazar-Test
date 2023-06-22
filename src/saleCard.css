@@ -1,0 +1,41 @@
+.sale {
+    background-color: white;
+    border:2px solid #f4f5f7;
+    padding: 0;
+    max-width: 450px;
+    padding: 15px;
+    margin: 20px 0;
+}
+
+.saleHeader {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.saleHeader span {
+    padding: 5px;
+    background-color: #d6ec4f;
+    border-radius: 50%;
+}
+.saleBody {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.saleBody img {
+    width: 30%;
+    aspect-ratio: 1/1;
+
+}
+.saleBody p {
+    color: rgb(123, 123, 123);
+    font-size: 12px;
+}
+.salesInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 10px;
+    width: 50%;
+    margin-left: 10px;
+}

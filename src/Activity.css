@@ -1,0 +1,23 @@
+.activity {
+    background-color: white;
+    border:2px solid #f4f5f7;
+    padding: 0;
+    max-width: 450px;
+    padding: 25px;
+    margin: 20px 0;
+}
+.activity h1 {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #0d0545;
+}
+.activity .record{
+    font-size: 15px;
+}
+.activity .record span{
+    font-weight: bolder;
+}
+.activity .purchase{
+    color: rgb(123, 123, 123);
+    font-size: 12px;
+}

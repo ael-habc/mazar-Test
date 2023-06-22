@@ -1,0 +1,23 @@
+{
+  "name": "Ronald Zartarian",
+  "customer_details": [
+    {
+      "id": 1,
+      "title": "customer details",
+      "address": "123 Main St",
+      "city": "Boston"
+    },
+    {
+      "id": 2,
+      "title": "customer information",
+      "address": "123 Main St",
+      "city": "Boston"
+    },
+    {
+      "id": 3,
+      "title": "customer contact",
+      "address": "123 Main St",
+      "city": "Boston"
+    }
+  ]
+}

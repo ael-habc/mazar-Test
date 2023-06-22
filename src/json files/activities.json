@@ -1,0 +1,20 @@
+[
+    {
+        "id": "1",
+        "price": "640",
+        "motive":"cleaning Supplies",
+        "last_Purchase": "2020-01-01"
+    },
+    {
+        "id": "2",
+        "price": "640",
+        "motive":"cleaning Supplies",
+        "last_Purchase": "2020-01-01"
+    },
+    {
+        "id": "3",
+        "price": "640",
+        "motive":"cleaning Supplies",
+        "last_Purchase": "2020-01-01"
+    }
+]
